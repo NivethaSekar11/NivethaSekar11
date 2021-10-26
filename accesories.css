@@ -1,0 +1,107 @@
+html{
+scroll-behavior:smooth;
+}
+body
+{
+ margin:0px auto;
+ padding:0px;
+ text-align:center;
+ width:100%;
+ font-family:Monaco,Monospace;
+ background-color:Black;
+}
+
+#header{
+   
+ width:100%;
+ margin:0px auto;
+ padding:0px;
+ justify-content:space-between;
+ text-align:center;
+ font-family:Lucida Handwriting,Cursive;
+ height:70px;
+ line-height:70px;
+ background-color:black;
+    
+}
+
+
+#menu li{
+   list-style: none;
+   display: inline-block;
+   background-color:black;
+   font-family:Lucida Handwriting,Cursive;
+   margin: 20px;
+   text-align:left;
+   font-size:17px;
+   color:pink;
+   font-weight:bold;
+}
+#header #site_name
+{
+ text-align:left;
+ font-family:Monaco,Monospace;
+ width:680px;
+ font-size:35px;
+ margin-left:20px;
+}
+
+#home,#about,#contact
+{
+ margin-top:0px;
+ color:white;
+
+}
+#home h1
+{
+ font-size:40px;
+}
+#home p
+{
+ font-size:20px;
+}
+#about 
+{ 
+ font-size:20px;
+ font-family:Garamond,Serif;
+ text-align:left;
+ background-color:Black;
+ color:White;
+}
+#contact
+{
+ font-size:20px;
+ font-family:Garamond,Serif;
+ text-align:center;
+ color:white;
+}
+#contact input[type="text"]
+{
+ width:250px;
+ height:35px;
+ float:left;
+font-weight:bold;
+ margin-left:80px;
+ border:none;
+
+}
+#contact textarea
+{
+ float:left;
+ width:250px;
+ height:35px;
+ margin-left:20px;
+ color:black;
+ border:none;
+}
+#contact input[type="submit"]
+{
+ float:left;
+ margin-left:20px;
+ height:35px;
+ width:100px;
+ background:white;
+ color:black;
+ font-weight:bold;
+ border:1px solid white;
+}
